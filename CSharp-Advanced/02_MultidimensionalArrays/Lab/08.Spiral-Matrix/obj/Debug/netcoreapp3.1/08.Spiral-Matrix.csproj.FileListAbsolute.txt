@@ -1,0 +1,13 @@
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\bin\Debug\netcoreapp3.1\08.Spiral-Matrix.exe
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\bin\Debug\netcoreapp3.1\08.Spiral-Matrix.deps.json
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\bin\Debug\netcoreapp3.1\08.Spiral-Matrix.runtimeconfig.json
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\bin\Debug\netcoreapp3.1\08.Spiral-Matrix.runtimeconfig.dev.json
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\bin\Debug\netcoreapp3.1\08.Spiral-Matrix.dll
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\bin\Debug\netcoreapp3.1\08.Spiral-Matrix.pdb
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\obj\Debug\netcoreapp3.1\08.Spiral-Matrix.csprojAssemblyReference.cache
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\obj\Debug\netcoreapp3.1\08.Spiral-Matrix.AssemblyInfoInputs.cache
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\obj\Debug\netcoreapp3.1\08.Spiral-Matrix.AssemblyInfo.cs
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\obj\Debug\netcoreapp3.1\08.Spiral-Matrix.csproj.CoreCompileInputs.cache
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\obj\Debug\netcoreapp3.1\08.Spiral-Matrix.dll
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\obj\Debug\netcoreapp3.1\08.Spiral-Matrix.pdb
+C:\Users\KRISI\source\repos\CSharp-Advanced-Multidimensional-Arrays\08.Spiral-Matrix\obj\Debug\netcoreapp3.1\08.Spiral-Matrix.genruntimeconfig.cache
