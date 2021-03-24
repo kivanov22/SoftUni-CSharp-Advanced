@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operations", "Operations\Operations.csproj", "{526A4588-0608-4923-AD01-7753D93529E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{32334E73-E546-4CF5-99FD-72DD5EB25264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shape\Shapes.csproj", "{96A3B64B-82D0-4115-99A6-561409A7051D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{526A4588-0608-4923-AD01-7753D93529E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526A4588-0608-4923-AD01-7753D93529E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526A4588-0608-4923-AD01-7753D93529E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526A4588-0608-4923-AD01-7753D93529E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32334E73-E546-4CF5-99FD-72DD5EB25264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32334E73-E546-4CF5-99FD-72DD5EB25264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32334E73-E546-4CF5-99FD-72DD5EB25264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32334E73-E546-4CF5-99FD-72DD5EB25264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A3B64B-82D0-4115-99A6-561409A7051D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A3B64B-82D0-4115-99A6-561409A7051D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A3B64B-82D0-4115-99A6-561409A7051D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A3B64B-82D0-4115-99A6-561409A7051D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6A7EF66-DC2C-47E3-A0A5-3422929DB7F0}
+	EndGlobalSection
+EndGlobal
