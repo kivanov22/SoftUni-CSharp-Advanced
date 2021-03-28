@@ -1,0 +1,8 @@
+C:\Users\KRISI\Desktop\09. CSharp-OOP-Unit-Testing-Exercise-Skeleton\FightingArena\bin\Debug\netcoreapp3.1\FightingArena.deps.json
+C:\Users\KRISI\Desktop\09. CSharp-OOP-Unit-Testing-Exercise-Skeleton\FightingArena\bin\Debug\netcoreapp3.1\FightingArena.dll
+C:\Users\KRISI\Desktop\09. CSharp-OOP-Unit-Testing-Exercise-Skeleton\FightingArena\bin\Debug\netcoreapp3.1\FightingArena.pdb
+C:\Users\KRISI\Desktop\09. CSharp-OOP-Unit-Testing-Exercise-Skeleton\FightingArena\obj\Debug\netcoreapp3.1\FightingArena.AssemblyInfoInputs.cache
+C:\Users\KRISI\Desktop\09. CSharp-OOP-Unit-Testing-Exercise-Skeleton\FightingArena\obj\Debug\netcoreapp3.1\FightingArena.AssemblyInfo.cs
+C:\Users\KRISI\Desktop\09. CSharp-OOP-Unit-Testing-Exercise-Skeleton\FightingArena\obj\Debug\netcoreapp3.1\FightingArena.csproj.CoreCompileInputs.cache
+C:\Users\KRISI\Desktop\09. CSharp-OOP-Unit-Testing-Exercise-Skeleton\FightingArena\obj\Debug\netcoreapp3.1\FightingArena.dll
+C:\Users\KRISI\Desktop\09. CSharp-OOP-Unit-Testing-Exercise-Skeleton\FightingArena\obj\Debug\netcoreapp3.1\FightingArena.pdb
