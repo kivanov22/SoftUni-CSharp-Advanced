@@ -15,7 +15,7 @@ namespace Bakery.Models.Tables
         private int capacity;
         private int numberOfPeople;
 
-        public Table(int tableNumber, int capacity, decimal pricePerPerson)//mayybe public
+        protected Table(int tableNumber, int capacity, decimal pricePerPerson)//mayybe public
         {
             TableNumber = tableNumber;
             Capacity = capacity;

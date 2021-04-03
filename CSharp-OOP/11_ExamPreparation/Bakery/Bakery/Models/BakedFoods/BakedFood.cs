@@ -11,7 +11,7 @@ namespace Bakery.Models.BakedFoods
         private string name;
         private int portion;
         private decimal price;
-        public BakedFood(string name, int portion, decimal price)
+        protected BakedFood(string name, int portion, decimal price)
         {
             Name = name;
             Portion = portion;

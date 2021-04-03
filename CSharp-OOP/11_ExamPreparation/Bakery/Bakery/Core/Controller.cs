@@ -16,13 +16,13 @@ namespace Bakery.Core
 {
     public class Controller : IController
     {
-        private List<IBakedFood> foods;
+        private List<IBakedFood> bakedFoods;
         private List<IDrink> drinks;
         private List<ITable> tables;
         private decimal restaurantTotalIncome = 0;
         public Controller()
         {
-            this.foods = new List<IBakedFood>();
+            this.bakedFoods = new List<IBakedFood>();
             this.drinks = new List<IDrink>();
             this.tables = new List<ITable>();
 
@@ -55,12 +55,12 @@ namespace Bakery.Core
 
             if (type == "Bread")
             {
-                this.foods.Add(new Bread(name, price));
+                this.bakedFoods.Add(new Bread(name, price));
                 
             }
             if (type == "Cake")
             {
-                this.foods.Add(new Cake(name, price));
+                this.bakedFoods.Add(new Cake(name, price));
               
             }
            
@@ -196,7 +196,7 @@ namespace Bakery.Core
             }
             else
             {
-                IBakedFood food = foods.FirstOrDefault(d => d.Name == foodName);
+                IBakedFood food = bakedFoods.FirstOrDefault(d => d.Name == foodName);
                 if (food == null)
                 {
                     return $"No {foodName} in the menu";
