@@ -4,14 +4,14 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bakery.Models
+namespace Bakery.Models.BakedFoods
 {
-    public abstract class BakedFood:IBakedFood
+    public abstract class BakedFood : IBakedFood
     {
         private string name;
         private int portion;
         private decimal price;
-        protected BakedFood(string name , int portion,decimal price)
+        public BakedFood(string name, int portion, decimal price)
         {
             Name = name;
             Portion = portion;
@@ -19,7 +19,7 @@ namespace Bakery.Models
         }
 
         public string Name
-        { 
+        {
             get { return this.name; }
             private set
             {
@@ -36,7 +36,7 @@ namespace Bakery.Models
             get { return this.portion; }
             private set
             {
-                if (value<=0)
+                if (value <= 0)
                 {
                     throw new ArgumentException(ExceptionMessages.InvalidPortion);
                 }
@@ -49,7 +49,7 @@ namespace Bakery.Models
             get { return this.price; }
             private set
             {
-                if (value<=0)
+                if (value <= 0)
                 {
                     throw new ArgumentException(ExceptionMessages.InvalidPrice);
                 }
@@ -60,7 +60,9 @@ namespace Bakery.Models
 
         public override string ToString()
         {
-            return $"{this.GetType().Name}: {Portion}g - {Price:F2}";
+            return $"{Name}: {Portion}g - {Price:F2}";
         }
     }
 }
+
+

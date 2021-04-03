@@ -1,8 +1,6 @@
 ﻿using Bakery.Models.Drinks.Contracts;
 using Bakery.Utilities.Messages;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Bakery.Models.Drinks
 {
@@ -13,7 +11,7 @@ namespace Bakery.Models.Drinks
         private decimal price;
         private string brand;
 
-        protected Drink(string name, int portion, decimal price,string brand)
+        public Drink(string name, int portion, decimal price,string brand)
         {
             Name = name;
             Portion = portion;
@@ -74,7 +72,7 @@ namespace Bakery.Models.Drinks
 
         public override string ToString()
         {
-            return $"{this.GetType().Name} {Brand} - {Portion}ml - {Price:f2}lv";
+            return $"{name} {brand} - {portion}ml - {price:f2}lv";
         }
     }
 }
