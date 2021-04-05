@@ -9,21 +9,21 @@ namespace EasterRaces.Repositories.Entities
 {
    public class CarRepository:IRepository<ICar>
     {
-        private List<ICar> cars;
+        private  List<ICar> carRepository;
         public CarRepository()
         {
-            this.cars = new List<ICar>();
+            this.carRepository = new List<ICar>();
         }
         public void Add(ICar model)
         {
-            this.cars.Add(model);
+            this.carRepository.Add(model);
         }
 
-        public IReadOnlyCollection<ICar> GetAll() => this.cars.ToArray();
+        public IReadOnlyCollection<ICar> GetAll() => this.carRepository;
 
         public ICar GetByName(string name)
-        => this.cars.FirstOrDefault(n => n.Model == name);
+        => this.carRepository.FirstOrDefault(n => n.Model == name);
 
-        public bool Remove(ICar model) => this.cars.Remove(model);
+        public bool Remove(ICar model) => this.carRepository.Remove(model);
     }
 }

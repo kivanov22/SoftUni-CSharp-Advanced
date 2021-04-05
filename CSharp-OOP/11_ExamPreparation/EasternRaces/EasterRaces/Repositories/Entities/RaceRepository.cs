@@ -9,22 +9,22 @@ namespace EasterRaces.Repositories.Entities
 {
     public class RaceRepository : IRepository<IRace>
     {
-        private List<IRace> races;
+        private List<IRace> raceRepository;
         public RaceRepository()
         {
-            this.races = new List<IRace>();
+            this.raceRepository = new List<IRace>();
         }
         public void Add(IRace model)
         {
-            this.races.Add(model);
+            this.raceRepository.Add(model);
         }
 
-        public IReadOnlyCollection<IRace> GetAll()=>this.races.ToArray();
+        public IReadOnlyCollection<IRace> GetAll()=>this.raceRepository;
 
         public IRace GetByName(string name)
-        => this.races.FirstOrDefault(n => n.Name == name);
+        => this.raceRepository.FirstOrDefault(n => n.Name == name);
 
-        public bool Remove(IRace model) => this.races.Remove(model);
+        public bool Remove(IRace model) => this.raceRepository.Remove(model);
         
     }
 }

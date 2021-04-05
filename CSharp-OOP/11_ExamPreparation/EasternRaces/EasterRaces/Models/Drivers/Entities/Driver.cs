@@ -1,19 +1,18 @@
 ﻿using EasterRaces.Models.Cars.Contracts;
 using EasterRaces.Models.Drivers.Contracts;
-using EasterRaces.Utilities.Messages;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace EasterRaces.Models.Drivers.Entities
 {
     public class Driver : IDriver
     {
         private string name;
-        private bool canParticipate = false;
+        private bool canParticipate;
+        private ICar car;
+        private int numberOfWins;
         public Driver(string name)
         {
-
+            Name = name;
         }
         public string Name
         {
@@ -22,23 +21,39 @@ namespace EasterRaces.Models.Drivers.Entities
             {
                 if (string.IsNullOrEmpty(value) || value.Length<5)//Todo maybe fix message
                 {
-                    throw new ArgumentException(ExceptionMessages.InvalidName);
+                    throw new ArgumentException($"Name {name} cannot be less than 5 symbols.");//ExceptionMessages.InvalidName
                 }
             }
         }
 
-        public ICar Car { get; private set; }
-
-        public int NumberOfWins { get; private set; }
-
-        public bool CanParticipate
+        public ICar Car// { get; private set; }
         {
-            get => this.canParticipate;
+            get => car;
             private set
             {
-                if (this.Car != null)
+                car = value;
+            }
+        }
+        public int NumberOfWins //{ get; private set; }
+        {
+            get => numberOfWins;
+            private set
+            {
+                numberOfWins = value;
+            }
+        }
+        public bool CanParticipate
+        {
+            get => canParticipate;
+            private set
+            {
+                if (Car == null)
                 {
-                    this.canParticipate = value;
+                    canParticipate = false;
+                }
+                else
+                {
+                    canParticipate = true;
                 }
             }
         }
@@ -47,7 +62,7 @@ namespace EasterRaces.Models.Drivers.Entities
         {
             if (car ==null)
             {
-                throw new ArgumentNullException("Car cannot be null.");
+                throw new ArgumentNullException(nameof(ICar),"Car cannot be null.");//addded nameof
             }
 
             Car = car;
