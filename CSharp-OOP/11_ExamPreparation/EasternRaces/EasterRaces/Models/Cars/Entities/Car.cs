@@ -8,6 +8,7 @@ namespace EasterRaces.Models.Cars.Entities
     {
         private string model;
         private int horsePower;
+            
         private int minHorsePower;
         private int maxHorsePower;
 
@@ -40,8 +41,9 @@ namespace EasterRaces.Models.Cars.Entities
         public double CalculateRacePoints(int laps)
         {
             //cubic centimeters / horsepower * laps
+            double result = this.CubicCentimeters / this.HorsePower * laps;
 
-            return CubicCentimeters / HorsePower * laps;
+            return result;
         }
     }
 }

@@ -32,7 +32,7 @@ namespace EasterRaces.Core.Entities
             }
             if (car == null)
             {
-                throw new InvalidOperationException($"Car {carModel} could not be found.");//driverName
+                throw new InvalidOperationException($"Car {driverName} could not be found.");//carModel
             }
             driver.AddCar(car);
             //this.carsRepository.Remove(car);//maybe fix
