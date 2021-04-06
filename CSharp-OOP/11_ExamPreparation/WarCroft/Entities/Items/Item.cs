@@ -13,7 +13,7 @@ namespace WarCroft.Entities.Items
 			this.Weight = weight;
 		}
 
-		public int Weight { get; }
+		public int Weight { get; private set; }
 
 		public virtual void AffectCharacter(Character character)
 		{

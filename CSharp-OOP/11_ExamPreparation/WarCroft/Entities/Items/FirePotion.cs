@@ -17,7 +17,15 @@ namespace WarCroft.Entities.Items
         {
             base.AffectCharacter(character);
 
-
+            if (character.Health>20)
+            {
+                character.Health -= 20;
+            }
+            else
+            {
+                character.Health = 0;
+                character.IsAlive = false;
+            }
         }
     }
 }
