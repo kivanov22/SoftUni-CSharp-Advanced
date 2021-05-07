@@ -1,0 +1,13 @@
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\bin\Debug\netcoreapp3.1\DependencyInjectionWorkShop.exe
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\bin\Debug\netcoreapp3.1\DependencyInjectionWorkShop.deps.json
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\bin\Debug\netcoreapp3.1\DependencyInjectionWorkShop.runtimeconfig.json
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\bin\Debug\netcoreapp3.1\DependencyInjectionWorkShop.runtimeconfig.dev.json
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\bin\Debug\netcoreapp3.1\DependencyInjectionWorkShop.dll
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\bin\Debug\netcoreapp3.1\DependencyInjectionWorkShop.pdb
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\obj\Debug\netcoreapp3.1\DependencyInjectionWorkShop.csprojAssemblyReference.cache
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\obj\Debug\netcoreapp3.1\DependencyInjectionWorkShop.AssemblyInfoInputs.cache
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\obj\Debug\netcoreapp3.1\DependencyInjectionWorkShop.AssemblyInfo.cs
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\obj\Debug\netcoreapp3.1\DependencyInjectionWorkShop.csproj.CoreCompileInputs.cache
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\obj\Debug\netcoreapp3.1\DependencyInjectionWorkShop.dll
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\obj\Debug\netcoreapp3.1\DependencyInjectionWorkShop.pdb
+C:\Users\KRISI\source\repos\DependencyInjectionWorkShop\DependencyInjectionWorkShop\obj\Debug\netcoreapp3.1\DependencyInjectionWorkShop.genruntimeconfig.cache
